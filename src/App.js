@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect }from 'react';
 import logo from './logo.svg';
 import './App.css';
 import firebase from 'firebase';
 
+import data from './data.json'
+
 function App() {
+
+  useState(data);
 
   useEffect(() => {
     firebase.initializeApp({

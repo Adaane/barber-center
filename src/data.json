@@ -1,0 +1,22 @@
+[{
+    "name": "Barber_Factory",
+    "adresse": "16 Rue Jules Valles",
+    "zipCode": 75011,
+    "city": "Paris",
+    "number": "0987362133"
+},
+{
+    "name": "le Bink's Barbeshop",
+    "adresse": "3 place du 14 Juillet",
+    "zipCode": 91270,
+    "city": "Vigneux-sur-Seine",
+    "number": "0187900597"
+},
+{
+    "name": "Les Gapha's",
+    "adresse": "236 rue Championnet",
+    "zipCode": 75018,
+    "city": "Paris",
+    "number": "0967593542"
+}
+]
