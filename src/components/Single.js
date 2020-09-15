@@ -1,17 +1,14 @@
 import React from 'react';
 
-import React from 'react'
-
 const Single = (props) => {
     return (
         <li className="col s12 m7">
         <div className="card">
             <div className="card-image">
                 <img src="./barber.jpg" alt={props.item.title} />
-                <span className="card-title">{props.item.title}</span>
+                <span className="card-title">{props.item.name}</span>
             </div>
             <div className="card-content">
-
             </div>
             <span className="card-title">{props.item.Adress}</span>
             <div className="row">
