@@ -10,7 +10,7 @@ const Single = (props) => {
             </div>
             <div className="card-content">
             </div>
-            <span className="card-title">{props.item.Adress}</span>
+            <span className="card-title">{props.item.adress} - {props.item.city}</span>
             <div className="row">
                 <div className="col 16 center">
                     <blockquote><h5>{props.item.number}</h5></blockquote>
