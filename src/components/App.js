@@ -1,9 +1,9 @@
 import React, { useState, useEffect }from 'react';
-import logo from './logo.svg';
+import logo from '../logo.svg';
 import './App.css';
 import firebase from 'firebase';
 
-import data from './data.json'
+import data from '../data.json'
 
 function App() {
 
