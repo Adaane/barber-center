@@ -16,6 +16,9 @@ const Single = (props) => {
                     <blockquote><h5>{props.item.number}</h5></blockquote>
                 </div>
             </div>
+            <div className="card-action">
+                <button className="btn waves-light waves-effect red darken-4">Supprimer</button>
+            </div>
         </div>
         </li>
     )
