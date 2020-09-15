@@ -4,6 +4,7 @@ import firebase from 'firebase';
 
 import data from '../data.json'
 import Grid from './Grid';
+import Form from './Form';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       </nav>
     </div>
     <div>
+    <Form />
       <Grid item={item}/>
     </div>
    </>
