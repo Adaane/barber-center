@@ -5,5 +5,11 @@ module.exports = {
     output: {
         filename: "js/site.js",
         path: path.resolve( __dirname ,'public')
+    },
+    mode: "development",
+    watch: true,
+    watchOptions: {
+        ignored: /node_modules/
     }
+
 }
